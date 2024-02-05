@@ -5,6 +5,5 @@ duckduckgo-search
 anthropic>=0.3.0
 trubrics>=1.4.3
 streamlit-feedback
-uuid
-json
-pymongo
+uuid>=1.30
+pymongo>=4.4.1
