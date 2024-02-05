@@ -9,15 +9,15 @@ with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="feedback_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
 client = OpenAI(api_key=openai_api_key)
-st.title("📝 Provide Gameplay Feedback with Feedback.Ai")
+
 
 
 league_questions = {
-    'q1': "How satisfied are you with the balance changes made to champions in the January 2024 patch, and why?",
+    'q1': "How satisfied are you with the balance changes made  in the January 2024 patch, and why?",
     'q2': "What is your opinion on the new items and item updates introduced in the January 2024 patch?",
     'q3': "How do you rate the changes made to the map in the January 2024 patch in terms of enhancing strategic diversity and gameplay fairness?",
-    'q4': "In terms of overall game experience, how has the January 2024 patch affected your enjoyment and engagement with League of Legends?",
-    'q5': "What other feedback or suggestions do you have for the League of Legends development team?",
+    'q4': "In terms of overall game experience, how has the January 2024 patch affected your enjoyment and engagement with the game?",
+    'q5': "What other feedback or suggestions do you have for the development team?",
     'q6': "What are your thoughts on the new champion introduced in the January 2024 patch, and how does it impact the game's strategic diversity and competitive landscape?",
     'q7': "How do you feel about the adjustments made to existing champions in the January 2024 patch, and how have they influenced your gameplay experience?"
 }
