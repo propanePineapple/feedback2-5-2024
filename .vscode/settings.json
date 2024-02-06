@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Feedback.AI",
+    "id": "65c12acede2d2d576c25a7b9",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/Users/elanbibas/Feedback-AI/feedback2-5-2024/src/components",
+    "screensPath": "/Users/elanbibas/Feedback-AI/feedback2-5-2024/pages"
+  }
+}
